@@ -12,6 +12,7 @@ if(file == NULL){
     return NULL;
 }
 /*allocate memory to store the line we read from the file. allocate space for 100 characters*/
+char* string =(char*)malloc(sizeof(char)*100);
 /*check that allocation was sucessful, use fscanf to read up to 99 characters untile end of file is reached
 if the line is read successfully null-terminateit if fscanf cannot read the line free the memroy anf set to NULL*/
 /*close the file and return the line*/
