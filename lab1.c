@@ -31,6 +31,12 @@ return string;
 }
 
 char* mysteryExplode(const char* str){
-    
+    /*find the length of the string*/
+    /*calculate the length of the exploded string N*(N+1)/2 +1 (+1 is for the null mark at the end of the string)*/
+    /*dynamically allocate memory that is the size of our exploded string*/
+    /*initialize a pointer to the beginning of the exploded string*/
+    /* create a for loop which iterates through the characters of the string*/
+    /*null terminate the string*/
+    /*return the exploded string*/
 }
 
