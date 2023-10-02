@@ -44,7 +44,7 @@ char* mysteryExplode(const char* str){
     char* current_position = explodedString;
     /* create a for loop which iterates through the characters of the string*/
     for(int i=0; i<str_length; i++){
-        /*create a for loop that iterates from j to 1 and copy the character at current_position and then advance the pointer*/
+        /*create a for loop that iterates from j to i and copy the character at current_position and then advance the pointer*/
         for(int j = 0; j<= i; j++){
             *current_position = str[j];
             current_position++;
